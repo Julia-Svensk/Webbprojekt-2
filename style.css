@@ -1,0 +1,27 @@
+/* Steg 2: Starta kortet ovanför skärmen */
+.card.up {
+    transform: translateY(-200%);
+    opacity: 0;
+}
+
+/* Steg 5: Animera kortet till höger och vänster */
+.card.right {
+    transform: translate(30%, -5%) rotate(12deg);
+}
+
+.card.left {
+    transform: translate(-30%, -5%) rotate(-12deg);
+}
+
+/* Steg 7 - Klickanimationer */
+.card.out-right {
+    opacity: 0;
+    transform: translate(150%, -50%) rotate(250deg);
+}
+
+.card.out-left {
+    opacity: 0;
+    transform: translate(-150%, -50%) rotate(-250deg);
+}
+
+
