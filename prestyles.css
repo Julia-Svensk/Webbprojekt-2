@@ -49,7 +49,7 @@ body {
 }
 
 .card-bottom {
-    background: rgb(192, 166, 166);
+    background: rgb(255, 179, 179);
     display: flex;
     justify-content: center;
     align-items: center;
