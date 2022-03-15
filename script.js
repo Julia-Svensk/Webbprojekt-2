@@ -8,6 +8,7 @@ const catImg = document.querySelector('.cat-img');
 const catName = document.querySelector('.cat-name');
 const catLabel = document.querySelector('.cat-label');
 const catNr = document.querySelector('.cat-nr');
+const restart = document.querySelector('.restart');
 
 // Variabler för bästa katt
 let startTime;
@@ -28,6 +29,7 @@ function getCat() {
         yesButton.classList.add('hidden');
         noButton.classList.add('hidden');
         catLabel.classList.add('hidden');
+        restart.classList.add('shown');
 
         setTimeout(function () {
             card.classList.remove('up');

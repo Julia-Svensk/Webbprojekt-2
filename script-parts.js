@@ -8,3 +8,4 @@ const catImg = document.querySelector('.cat-img');
 const catName = document.querySelector('.cat-name');
 const catLabel = document.querySelector('.cat-label');
 const catNr = document.querySelector('.cat-nr');
+const restart = document.querySelector('.restart');

@@ -76,10 +76,6 @@ body {
     font-size: 20px;
 }
 
-.hidden {
-    display: none;
-}
-
 .option {
     background: none;
     border: none;
@@ -116,6 +112,34 @@ body {
 .true:hover {
     color: rgb(29, 170, 29);
     text-shadow: 1px 1px 60px rgb(12, 172, 33);
+}
+
+.restart {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 15px rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 170%;
+
+    display: none;
+
+    position: absolute;
+    top: 70px;
+    z-index: 100;
+}
+
+.restart:hover {
+    color: rgb(255, 224, 224);
+    text-shadow: 1px 1px 40px rgb(0, 0, 0);
+}
+
+.hidden {
+    display: none;
+}
+
+.shown {
+    display: block;
 }
 
 /* ANIMATIONS */
